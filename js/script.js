@@ -4,6 +4,8 @@
 // Created on: May 2024
 // This file contains the JS functions for index.html
 
+"use strict"
+
 window.onload = function () {
   // input
   const params = new URLSearchParams(document.location.search)
