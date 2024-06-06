@@ -24,7 +24,7 @@
       <div class="mdl-layout__header-row">
         <!-- This is the header of the webpage -->
         <span class="mdl-layout-title">
-          <h3>Sum of Natural Numbers</h3>
+          <h3>Sum of Natural Numbers, with a Query String</h3>
         </span>
       </div>
     </header>
@@ -34,20 +34,11 @@
       </div>
       <form action="#">
         <div class="page-content">
-          Enter a Positive Number.
-        </div>
-        <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="number" />
-          <label class="mdl-textfield__label" for="number">Enter a number ...</label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
+          Pick a Positive Number.
         </div>
       </form>
       <br />
-      <!-- Colored raised button -->
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored"
-        onclick="myButtonClicked()">
-        Calculate
-      </button>
+      <div id="number"></div>
       <br />
       <br />
       <div id="answer"></div>

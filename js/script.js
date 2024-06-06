@@ -8,7 +8,8 @@
 
 function myButtonClicked() {
   // input
-  const number = parseInt(document.getElementById('number').value)
+  const params = new URLSearchParams(document.location.search)
+  const number = params.get('number')
   let answer = 0
 
   // process
