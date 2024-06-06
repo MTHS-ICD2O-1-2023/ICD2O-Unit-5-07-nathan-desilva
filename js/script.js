@@ -4,7 +4,7 @@
 // Created on: May 2024
 // This file contains the JS functions for index.html
 
-window.onload =function () {
+window.onload = function () {
   // input
   const params = new URLSearchParams(document.location.search)
   const number = params.get('number') || 0
