@@ -17,10 +17,5 @@ window.onload = function () {
     answer += counter
   }
 
-  // add query string to URL
-  const newURL = new URL(document.location)
-  newURL.searchParams.set('answer', answer)
-  document.location.href = newURL.href
-
   document.getElementById('answer').innerHTML = "The sum of all the numbers from 0 to " + number + " is: " + answer
 }
